@@ -1,0 +1,40 @@
+/**
+ * This file is part of jquery.triangles.js
+ *
+ * (c) Philippe Gerber <philippe@bigwhoop.ch>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+.triangles {
+    background-color : #2b3239;
+    position         : fixed;
+    top              : 0;
+    left             : 0;
+    width            : 110%;
+    height           : 110%;
+    overflow         : hidden;
+}
+
+.triangles-column {
+    float : left;
+    width : 42px;
+}
+
+.triangle {
+    position : relative;
+    height   : 42px;
+    width    : 42px;
+}
+
+.triangle-col-1 {
+    background : linear-gradient(45deg, transparent 50%, #3E454C 50%);
+}
+
+.triangle-col-2 {
+    background : linear-gradient(45deg, transparent 50%, #72A4AF 50%);
+}
+
+.triangle-col-3 {
+    background : linear-gradient(45deg, transparent 50%, #FFA666 50%);
+}
