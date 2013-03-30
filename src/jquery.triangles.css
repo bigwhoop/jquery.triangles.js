@@ -14,6 +14,7 @@
     width            : 110%;
     height           : 110%;
     overflow         : hidden;
+    z-index          : 0;
 }
 
 .triangles-column {
